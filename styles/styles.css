@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+:root {
+  --light: #c6c6c6;
+  --dark: #121212;
+}
+
+body {
+  background: var(--dark);
+  color: var(--light);
+}
+
+#btn {
+  display: block;
+  border: 0.2em solid var(--light);
+  background-color: var(--dark);
+  color: var(--light);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  font-size: 3em;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-shadow: 0 12px var(--light);
+          box-shadow: 0 12px var(--light);
+  -webkit-transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-filter: saturate(200%);
+          filter: saturate(200%);
+}
+
+#btn:active {
+  -webkit-box-shadow: 0 0px var(--light);
+          box-shadow: 0 0px var(--light);
+  -webkit-transform: translateY(12px);
+          transform: translateY(12px);
+}
+
+#hugeform {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5em;
+  color: var(--light);
+  padding-left: 0.1em;
+}
+
+#centered {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+/*# sourceMappingURL=styles.css.map */
